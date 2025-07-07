@@ -1,0 +1,206 @@
+.task-7 {
+    padding: 50px 20px;
+    height: 100%;
+    background-color: #000;
+}
+.task-7__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.task-7__wrapper-moon {
+    background-color: #1d0028;
+    width: 400px;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 1, 0.1);
+    transition: all 0.6s ease;
+}
+.task-7__title-moon {
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}  
+.task-7__desc-moon {
+    color: white;
+    font-size: 16px;
+    line-height: 1.5;
+    transition: all 0.3s ease;
+}
+.task-7__button-moon {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff4081;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.task-7__wrapper-moon:hover {
+    background-color: #fff;
+    margin-top: -50px;
+    transition: all 0.6s ease;
+}
+.task-7__wrapper-moon:hover .task-7__title-moon {
+    color: #ff4081;
+    transform: translateY(-10px);
+    transition: all 0.3s ease;
+}
+.task-7__wrapper-moon:hover .task-7__desc-moon {
+    color: #333;
+    transform: translateY(-10px);
+    transition: all 0.3s ease;
+}
+.task-7__button-moon:hover {
+    background-color: #e91e63;
+}
+.task-7__button-moon:active {
+    background-color: #c2185b;
+}
+.task-7__image {
+    width: 400px;
+    height: 400px;
+}
+.task-7__img-moon {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.9s ease-in-out;
+}
+.task-7__img-moon:hover {
+    transform: rotate(360deg);
+    transition: all 0.9s ease-in-out;
+}
+
+/* --------------------------------------------------- */
+
+.task-7__wrapper-sun {
+    background-color: #f4e560;
+    width: 400px;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 1, 0.1);
+    transition: all 0.6s ease;
+}
+.task-7__title-sun {
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}  
+.task-7__desc-sun {
+    color: white;
+    font-size: 16px;
+    line-height: 1.5;
+    transition: all 0.3s ease;
+}
+.task-7__button-sun {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #c1c402;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.task-7__wrapper-sun:hover {
+    background-color: #fff;
+    margin-top: -50px;
+    transition: all 0.6s ease;
+}
+.task-7__wrapper-sun:hover .task-7__title-sun {
+    color: #d6fa07;
+    transform: translateY(-10px);
+    transition: all 0.3s ease;
+}
+.task-7__wrapper-sun:hover .task-7__desc-sun {
+    color: #333;
+    transform: translateY(-10px);
+    transition: all 0.3s ease;
+}
+.task-7__button-sun:hover {
+    background-color: #d18c02;
+}
+.task-7__button-sun:active {
+    background-color: #e8dc05
+}
+.task-7__img-sun {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.9s ease-in-out;
+}
+.task-7__img-sun:hover {
+    transform: rotate(360deg);
+    transition: all 0.9s ease-in-out;
+}
+
+/* ----------------------------------------------------- */
+
+.task-7__wrapper-earth {
+    background-color: #49ff1b;
+    width: 400px;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 1, 0.1);
+    transition: all 0.6s ease;
+}
+.task-7__title-earth {
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+.task-7__desc-earth {
+    color: white;
+    font-size: 16px;
+    line-height: 1.5;
+    transition: all 0.3s ease;
+}
+.task-7__button-earth {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #144c00;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.task-7__wrapper-earth:hover {
+    background-color: #fff;
+    margin-top: -50px;
+    transition: all 0.6s ease;
+}
+.task-7__wrapper-earth:hover .task-7__title-earth {
+    color: #01f521;
+    transform: translateY(-10px);
+    transition: all 0.3s ease;
+}
+.task-7__wrapper-earth:hover .task-7__desc-earth {
+    color: #333;
+    transform: translateY(-10px);
+    transition: all 0.3s ease;
+}
+.task-7__button-earth:hover {
+    background-color: #38ff2d;
+}
+.task-7__button-earth:active {
+    background-color: #3d9f00;
+}
+
+.task-7__img-earth {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.9s ease-in-out;
+}
+.task-7__img-earth:hover {
+    transform: rotate(360deg);
+    transition: all 0.9s ease-in-out;
+}
